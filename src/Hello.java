@@ -1,10 +1,13 @@
 public class Hello {
     public static void main(String[] args) {
-    System.out.println("Om namah shivay");
-        System.out.println(5+0);
 
-
-
-        System.out.println("hhhe");
+        int x =0;
+        while(x<5){
+            if(x==2){
+                break;
+            }
+            System.out.print(x+" ");
+            x++;
+        }
     }
 }
